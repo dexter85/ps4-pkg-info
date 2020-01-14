@@ -1,0 +1,49 @@
+{
+    "name": "ps4-pkg-info",
+    "version": "1.0.0",
+    "description": "Extract informations from PS4 pkg files",
+    "main": "src/pkgInfo.js",
+    "scripts": {
+        "test": "echo \"No test specified\""
+    },
+    "keywords": [
+        "PS4",
+        "PKG",
+        "APP_TYPE",
+        "APP_VER",
+        "ATTRIBUTE",
+        "CATEGORY",
+        "CONTENT_ID",
+        "DOWNLOAD_DATA_SIZE",
+        "FORMAT",
+        "PARENTAL_LEVEL",
+        "PUBTOOLINFO",
+        "PUBTOOLVER",
+        "REMOTE_PLAY_KEY_ASSIGN",
+        "SERVICE_ID_ADDCONT_ADD_1",
+        "SERVICE_ID_ADDCONT_ADD_2",
+        "SERVICE_ID_ADDCONT_ADD_3",
+        "SERVICE_ID_ADDCONT_ADD_4",
+        "SERVICE_ID_ADDCONT_ADD_5",
+        "SERVICE_ID_ADDCONT_ADD_6",
+        "SERVICE_ID_ADDCONT_ADD_7",
+        "SYSTEM_VER",
+        "TITLE",
+        "TITLE_ID",
+        "VERSION"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dexter85/ps4-pkg-info.git"
+    },
+    "author": "Igor Campus",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dexter85/ps4-pkg-info/issues"
+    },
+    "homepage": "https://github.com/dexter85/ps4-pkg-info#readme",
+    "dependencies": {
+        "fs-readstream-seek": "^1.1.1",
+        "python-struct": "^1.1.2"
+    }
+}
