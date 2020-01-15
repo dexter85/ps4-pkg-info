@@ -1,6 +1,6 @@
 {
     "name": "ps4-pkg-info",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Extract informations from PS4 pkg files",
     "main": "src/pkgInfo.js",
     "scripts": {
